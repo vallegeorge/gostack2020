@@ -41,3 +41,5 @@ yarn init -y
 code .
 
 yarn add express
+------------------------------
+yarn add nodemon -D
