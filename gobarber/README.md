@@ -31,3 +31,10 @@ yarn sequelize migration:create --name=create-users
 yarn sequelize db:migrate
 
 yarn sequelize db:migrate:undo (desfaz as alteracoes da ultima migrate)
+
+-------------------------------------
+para utilizar a criptografia da senha:
+yarn add bcryptjs
+
+para gerar um token json JWT:
+yarn add jsonwebtoken
