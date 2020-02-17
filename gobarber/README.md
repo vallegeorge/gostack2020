@@ -23,3 +23,11 @@ yarn add sequelize-cli -D
 
 dependencias do postgres:
 yarn add pg pg-hstore
+
+---------------------------
+
+yarn sequelize migration:create --name=create-users
+
+yarn sequelize db:migrate
+
+yarn sequelize db:migrate:undo (desfaz as alteracoes da ultima migrate)
