@@ -38,3 +38,7 @@ yarn add bcryptjs
 
 para gerar um token json JWT:
 yarn add jsonwebtoken
+
+-------------------------------------
+Para fazer as validações de campos:
+yarn add yup
