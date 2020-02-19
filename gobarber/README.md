@@ -42,3 +42,8 @@ yarn add jsonwebtoken
 -------------------------------------
 Para fazer as validações de campos:
 yarn add yup
+
+---------------------------------------------------------------------
+Continuando API do GoBarber
+Envio de arquivos
+yarn add multer
