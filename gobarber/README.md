@@ -47,3 +47,9 @@ yarn add yup
 Continuando API do GoBarber
 Envio de arquivos
 yarn add multer
+
+Para adicionar um campo a tabela user (migration):
+yarn sequelize migration:create --name=add-avatar-field-to-users
+
+yarn sequelize migration:create --name=create-appointments
+yarn sequelize db:migrate
