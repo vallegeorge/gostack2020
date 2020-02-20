@@ -53,3 +53,6 @@ yarn sequelize migration:create --name=add-avatar-field-to-users
 
 yarn sequelize migration:create --name=create-appointments
 yarn sequelize db:migrate
+
+Para trabalhar com datas:
+yarn add date-fns
