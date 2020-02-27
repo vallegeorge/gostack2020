@@ -56,3 +56,9 @@ yarn sequelize db:migrate
 
 Para trabalhar com datas:
 yarn add date-fns
+
+---------------------------------
+
+docker run --name mongobarber -p 27017:27017 -d -t mongo
+
+yarn add mongoose
