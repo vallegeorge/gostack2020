@@ -3,10 +3,15 @@ import React from 'react';
 import Header from './components/Header';
 
 function App() {
+  const projects = ['Desenvolvimento de app', 'Front-end web'];
+
   return (
     <>
-      <Header />
-      <Header />
+      <Header title="Projects" />
+
+      <ul>
+        {projects.map(project => <li>{project}</li>)}
+      </ul>
     </>
   );
 }
