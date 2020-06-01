@@ -10,3 +10,8 @@ yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli
 yarn add @babel/cli
 
 yarn add webpack-dev-server -D
+
+IMPORTANDO CSS E IMAGENS
+yarn add style-loader css-loader
+
+yarn add file-loader
