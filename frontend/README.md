@@ -15,3 +15,6 @@ IMPORTANDO CSS E IMAGENS
 yarn add style-loader css-loader
 
 yarn add file-loader
+
+LISTANDO PROJETOS DA API
+yarn add axios
