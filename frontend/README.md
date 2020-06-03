@@ -18,3 +18,6 @@ yarn add file-loader
 
 LISTANDO PROJETOS DA API
 yarn add axios
+
+PARA O BABEL ENTENDER O ASYNC AWAIT
+yarn add @babel/plugin-transform-runtime -D

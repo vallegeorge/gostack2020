@@ -8,18 +8,25 @@ import './App.css';
 import Header from './components/Header';
 
 function App() {
-  const [projects, setProjects] = useState(['Desenvolvimento de app', 'Front-end web']);
-  //const [projects, setProjects] = useState([]);
+  const [projects, setProjects] = useState([]);
 
   useEffect(() => {
     api.get('projects').then(response => {
-      console.log(projects);
+      //console.log(projects);
       setProjects(response.data);
     })
   }, []);
 
-  function handleAddProject() {
-    setProjects([...projects, `Novo projeto ${Date.now()}`]);
+  async function handleAddProject() {
+    //setProjects([...projects, `Novo projeto ${Date.now()}`]);
+    const response = await api.post('projects', {
+      title: `Frontend ${Date.now()}`,
+      owner: "George"
+    });
+
+    const project = response.data;
+
+    setProjects([...projects, project ]);
   }
 
   return (
